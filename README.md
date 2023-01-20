@@ -47,12 +47,12 @@ My network can hit the desired accuracy in 15epochs.
 
 ```
 Target:
-Increasing the learning rate to 0.8 and then adding stepLR with 6 steps and gamma=0.1
-to achieve 99.4 consistance accuracy.
+Doubling the learning rate and using stepLR with 5 steps and gamma=0.1 to improve learning rate upto 99.4
+and to achieve consistance accuracy.
 
 Result:
 1. Total params: 9,956
-2. Training accuracy: 99.36 %
+2. Training accuracy: 99.41 %
 3. Test accuracy: 99.45 %
 
 Analysis:
